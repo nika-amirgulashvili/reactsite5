@@ -6,10 +6,11 @@ import {
     Link
   } from "react-router-dom";
 
+  import './Navbar.scss'
 function Navbar() {
     return (
     
-          <nav>
+          <nav className="navbar1">
             <ul>
               <li>
                 <Link to="/">Home</Link>
